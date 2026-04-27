@@ -1,3 +1,5 @@
+LICENSE
+README.md
 cli.py
 setup.py
 my_api_cli.egg-info/PKG-INFO
