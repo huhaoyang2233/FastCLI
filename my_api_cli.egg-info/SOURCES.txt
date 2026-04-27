@@ -1,0 +1,8 @@
+cli.py
+setup.py
+my_api_cli.egg-info/PKG-INFO
+my_api_cli.egg-info/SOURCES.txt
+my_api_cli.egg-info/dependency_links.txt
+my_api_cli.egg-info/entry_points.txt
+my_api_cli.egg-info/requires.txt
+my_api_cli.egg-info/top_level.txt

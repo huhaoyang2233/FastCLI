@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: my-api-cli
+Version: 1.0.0
+Summary: 由 FastAPI 自动生成的 CLI 工具
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Dist: typer>=0.9.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: rich>=13.7.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

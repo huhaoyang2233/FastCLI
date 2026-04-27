@@ -1,0 +1,30 @@
+{
+  "name": "my-api-cli",
+  "version": "1.0.0",
+  "description": "由 FastAPI 自动生成的 CLI 工具",
+  "author": "Your Name",
+  "author_email": "your.email@example.com",
+  "fastapi": {
+    "module": "main:app",
+    "base_url": "http://localhost:8000"
+  },
+  "cli": {
+    "entry_point": "mytool",
+    "output_file": "cli.py",
+    "use_rich": true,
+    "use_requests": true
+  },
+  "naming": {
+    "list_prefix": "list",
+    "get_prefix": "get",
+    "create_prefix": "create",
+    "update_prefix": "update",
+    "delete_prefix": "delete",
+    "path_param_suffix": "by_id"
+  },
+  "output": {
+    "generate_setup_py": true,
+    "generate_markdown": true,
+    "output_dir": "."
+  }
+}
